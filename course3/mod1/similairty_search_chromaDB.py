@@ -53,6 +53,29 @@ def main():
         # Each ID follows the format 'food_<index>', where <index> starts from 1
         ids = [f"food_{index + 1}" for index, _ in enumerate(texts)]
 
+
+
+		
+
+# 		"""
+# [f"food_{index + 1}" for index, _ in enumerate(texts)]
+
+# Breakdown:
+# - enumerate(texts): Returns (index, item) pairs for each text.
+# - index: Position of the current item (0, 1, 2, ...).
+# - _: Placeholder for the text value itself, indicating it is not used.
+# - index + 1: Shifts numbering to start from 1 instead of 0.
+# - f"food_{index + 1}": Creates IDs like "food_1", "food_2", etc.
+# - [...] : List comprehension that collects all generated IDs into a list.
+
+# Example:
+# texts = ["Pizza", "Burger", "Pasta"]
+# ids = ["food_1", "food_2", "food_3"]
+# """
+
+
+		
+
         # Add documents and their corresponding IDs to the collection
         # The `add` method inserts the data into the collection
         # The documents are the actual text items, and the IDs are unique identifiers
