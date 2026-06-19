@@ -1,4 +1,4 @@
-# LangChain Built-in Agents Cheat Sheet (Hinglish)
+# LangChain Built-in Agents Cheat Sheet 
 
 ## 🤖 Built-in Agents Kya Hote Hain?
 
